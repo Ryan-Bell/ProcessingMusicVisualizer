@@ -6,12 +6,16 @@ class Dots
   //This specifies the fill color specific to this dot
   color myColor;
   float radius;
+  
   //Determines whether velocity should degrade 
   boolean enableDrag = true;
+  
   //determines whether the dot should be drawn with an outline
   boolean stroke = false;
+  
   //The strength of the drag
   float dragConst = 1;
+  
   //The float that will hold the rotational value for the center dots
   float theta;
   
